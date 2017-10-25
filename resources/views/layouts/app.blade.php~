@@ -91,10 +91,9 @@
             $('a#replyButton').click(function(){
                 //????? comment id
                 var comment_id = $(this).attr('data-comment-id');
-		console.info(comment_id);
+
                 //?????????
                 $('#replyForm' + comment_id).show();
-                console.info($('#replyForm' + comment_id));
             });
             //AJAX ??
             $('a#replyAJAX').click(function(){

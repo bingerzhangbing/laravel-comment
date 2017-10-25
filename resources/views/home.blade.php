@@ -27,6 +27,7 @@
 				@endif
 			</form>
 			<p style="padding-top:30px;"><b>Message</b></p><hr>
+			@each('shared.comment',$comments,'comment')
 			<a href="#comment-form">leave a Message</a>
 		</div>
 </div>
